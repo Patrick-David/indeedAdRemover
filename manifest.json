@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Indeed new listings",
+    "version": "0.1.0",
+    "description": "Reomve sponsored jobs",
+   
+    "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["https://www.indeed.co.uk/*"]
+    }]
+   
+  }
